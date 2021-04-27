@@ -18,6 +18,5 @@
 
 .footer__link:hover {
   cursor: pointer;
-  text-decoration: underline;
-  opacity: 0.8;
+  opacity: 0.5;
 }

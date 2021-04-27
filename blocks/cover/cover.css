@@ -9,28 +9,25 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  padding-top: calc(100% * 0.191);
-  padding-bottom: calc(100% * 0.191);
+  padding-bottom: calc((100% - 96px) * 0.625);
 }
 
 @media screen and (max-width: 1200px) {
   .cover {
-    margin: 92px 0;
+    margin: 92px 0 0 0;
   }
 }
 
 @media screen and (max-width: 800px) {
   .cover {
-    margin: 90px 0;
-    padding-top: calc(100% * 0.150);
-    padding-bottom: calc(100% * 0.150);
+    margin: 90px 0 0 0;
+    padding-bottom: calc(100% * 0.625);
   }
 }
 
 @media screen and (max-width: 700px) {
   .cover {
-    margin: 66px 0;
-    padding-top: calc(100% * 0.10);
-    padding-bottom: calc(100% * 0.10);
+    margin: 66px 0 0 0;
+    padding-bottom: calc(100% * 0.625);
   }
 }
